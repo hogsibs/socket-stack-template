@@ -1,5 +1,6 @@
 {
   "workbench.colorTheme": "GitHub Dark",
   "editor.fontFamily": "Fira Code",
-  "editor.fontLigatures": true
+  "editor.fontLigatures": true,
+  "editor.tabSize": 2
 }
