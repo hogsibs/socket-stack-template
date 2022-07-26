@@ -1,4 +1,5 @@
 {
+  "build": { "dockerfile": "Dockerfile" },
   "customizations": {
     "vscode": {
       "extensions": ["Azurite.azurite", "ms-azuretools.vscode-azurefunctions"]
