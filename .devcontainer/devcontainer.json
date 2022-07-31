@@ -4,5 +4,6 @@
     "vscode": {
       "extensions": ["Azurite.azurite", "ms-azuretools.vscode-azurefunctions"]
     }
-  }
+  },
+  "onCreateCommand": "cd client && npm install && npm start"
 }
