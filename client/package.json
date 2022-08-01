@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "",
   "scripts": {
-    "start": "vite --port 3000",
+    "start": "vite --port 8080 --host",
     "build": "vite build",
     "typecheck": "tsc --noEmit",
     "typewatch": "tsc --noEmit --watch"

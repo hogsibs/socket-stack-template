@@ -1,8 +1,14 @@
 {
-  "build": { "dockerfile": "Dockerfile" },
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
   "customizations": {
     "vscode": {
-      "extensions": ["Azurite.azurite", "ms-azuretools.vscode-azurefunctions"]
+      "extensions": [
+        "Azurite.azurite",
+        "esbenp.prettier-vscode",
+        "ms-azuretools.vscode-azurefunctions"
+      ]
     }
   }
 }
