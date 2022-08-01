@@ -10,5 +10,6 @@
         "ms-azuretools.vscode-azurefunctions"
       ]
     }
-  }
+  },
+  "onCreateCommand": "npm install --prefix client"
 }
