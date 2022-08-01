@@ -7,9 +7,15 @@
       "extensions": [
         "Azurite.azurite",
         "esbenp.prettier-vscode",
+        "EthanSK.restore-terminals",
         "ms-azuretools.vscode-azurefunctions"
       ]
     }
   },
-  "onCreateCommand": "npm install --prefix client"
+  "onCreateCommand": "npm install --prefix client && npm start --prefix client",
+  "portsAttributes": {
+    "8080": {
+      "label": "Static Web App"
+    }
+  }
 }
