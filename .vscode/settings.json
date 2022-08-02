@@ -11,6 +11,10 @@
         {
           "name": "client",
           "commands": ["cd client", "npm install", "npm start"]
+        },
+        {
+          "name": "web-socket",
+          "commands": ["cd web-socket", "npm install", "npm start"]
         }
       ]
     }
