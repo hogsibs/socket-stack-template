@@ -4,5 +4,15 @@
   "editor.fontFamily": "Fira Code",
   "editor.fontLigatures": true,
   "editor.formatOnSave": true,
-  "editor.tabSize": 2
+  "editor.tabSize": 2,
+  "restoreTerminals.terminals": [
+    {
+      "splitTerminals": [
+        {
+          "name": "client",
+          "commands": ["cd client", "npm install", "npm start"]
+        }
+      ]
+    }
+  ]
 }
