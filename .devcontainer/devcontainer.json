@@ -12,7 +12,6 @@
       ]
     }
   },
-  "onCreateCommand": "npm install --prefix client && npm start --prefix client",
   "portsAttributes": {
     "8080": {
       "label": "Static Web App"
